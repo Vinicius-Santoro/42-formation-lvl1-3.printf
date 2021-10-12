@@ -22,6 +22,11 @@
 
 <h1></h1>
 
+## _Implementation files:_
+	
+- [`Makefile`](Makefile)
+- [`Header file`](libftprintf.h)
+
 ## _Functions made in this project:_
 
 - [`ft_printf`](printf/ft_printf.c) - it goes through the printf string and checks the formatting type.
