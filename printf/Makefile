@@ -10,31 +10,31 @@
 #                                                                              #
 # **************************************************************************** #
 
-NAME			=	libftprintf.a
+NAME	=	libftprintf.a
 
-SRC				=	ft_printf.c \
-					ft_types.c \
-					libft.c
+SRC	=	ft_printf.c \
+		ft_types.c \
+		libft.c
 
-OBJ				=	$(SRC:.c=.o)
+OBJ	=	$(SRC:.c=.o)
 
-CC				=	clang
-CFLAGS			=	-Wall -Wextra -Werror
+CC	=	clang
+CFLAGS	=	-Wall -Wextra -Werror
 
 all:		$(NAME)
 
 .c.o:
-			$(CC) $(FLAGS) -c $< -o $(<:.c=.o)
+		$(CC) $(FLAGS) -c $< -o $(<:.c=.o)
 
 $(NAME):	$(OBJ)
-			ar cr $(NAME) $(OBJ)
+		ar cr $(NAME) $(OBJ)
 
 clean:
-			rm -f $(OBJ)
+		rm -f $(OBJ)
 
 fclean:		clean
-			rm -f $(NAME)
+		rm -f $(NAME)
 
-re:			fclean all
+re:		fclean all
 
 .PHONY:		all, clean, fclean, re
