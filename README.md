@@ -25,5 +25,5 @@
 ## _Functions made in this project:_
 
 - [`ft_printf`](printf/ft_printf.c) - it goes through the printf string and checks the formatting type.
-- [`ft_types.c`](printf/ft_types.c) - checks and return the formatting type.
+- [`ft_types.c`](printf/ft_types.c) - format type check and return.
 - [`libft.c`](printf/libft.c) - auxiliary functions for printf. (functions were done in the first project - Libft).
