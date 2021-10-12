@@ -6,7 +6,7 @@
 
 <h1></h1>
 
-### _The project consists manage the following conversions:_
+### _The project provide to manage the following conversions:_
 
 | Specifier    | Description                                |
 |--------------|--------------------------------------------|
