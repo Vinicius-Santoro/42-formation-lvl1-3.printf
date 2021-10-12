@@ -25,7 +25,7 @@
 ## _Implementation files:_
 	
 - [`Makefile`](printf/Makefile)
-- [`Header file`](printf/libftprintf.h)
+- [`Header file`](printf/ft_printf.h)
 
 ## _Functions made in this project:_
 
