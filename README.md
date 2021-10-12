@@ -2,7 +2,7 @@
 
 ### _Project 3: get_next_line - Third project for the formation of software engineers at school 42 São Paulo._
 
-- This project consists in recreating a printf function from the <stdio.h> library.
+- This project consists of recreating a printf function from the <stdio.h> library.
 
 <h1></h1>
 
