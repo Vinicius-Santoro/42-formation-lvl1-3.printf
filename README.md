@@ -1,6 +1,6 @@
 <h1>42-formation-lvl1-3.printf</h1>
 
-### _Project 3: Printf - Third project for the formation of software engineers at school 42 São Paulo._
+### _Project 3: Printf - Third project for the formation of software engineers at school 42 São Paulo_
 
 - This project consists of recreating the printf function from the <stdio.h> library.
 
